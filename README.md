@@ -1,2 +1,2 @@
-# Tp1_SpringBoot
-Tp1 Spring Boot Suite
+# Tp2_SpringBoot
+Tp2 Spring Boot Suite
