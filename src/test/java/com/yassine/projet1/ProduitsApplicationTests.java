@@ -18,14 +18,13 @@ class ProduitsApplicationTests {
 
 	@Test
 	public void testCreateProduit() {
-		Produit prod = new Produit("Ecouteurs_Xiamoi 2.1", 90.0, new Date());
+		Produit prod = new Produit("Pc DE Yassine", 3990.0, new Date());
 		produitRepository.save(prod);
 	}
 
 	@Test
 	public void testFindProduit() {
-		Produit p = produitRepository.findById(2L).get();
-
+		Produit p = produitRepository.findById(7L).get();
 		System.out.println(p);
 	}
 

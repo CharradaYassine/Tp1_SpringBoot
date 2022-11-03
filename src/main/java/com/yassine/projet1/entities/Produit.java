@@ -12,7 +12,7 @@ public class Produit {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long idProduit;
+	private Long idProduit;	
 	private String nomProduit;
 	private Double prixProduit;
 	private Date dateCreation;
